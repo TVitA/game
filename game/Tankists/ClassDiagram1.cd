@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Tankists.AmmoBonus" Collapsed="true">
+    <Position X="9.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BonusesDecorators\AmmoBonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tankists.ArmorBonus" Collapsed="true">
+    <Position X="11.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BonusesDecorators\ArmorBonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tankists.Bonus" Collapsed="true">
+    <Position X="11.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAQAQAAAAAAAAIAAAAAAACAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>BonusesDecorators\Bonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tankists.ReloadBonus" Collapsed="true">
+    <Position X="14" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BonusesDecorators\ReloadBonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tankists.AmmoBox" Collapsed="true">
+    <Position X="10.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Factory\AmmoBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tankists.ArmorBox" Collapsed="true">
+    <Position X="6" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Factory\ArmorBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tankists.BoxBase" Collapsed="true">
+    <Position X="8.25" Y="2.25" Width="1.5" />
+    <InheritanceLine Type="JUnity.Basic.GameObject" ManuallyRouted="true">
+      <Path>
+        <Point X="14.5" Y="1.062" />
+        <Point X="14.5" Y="2.098" />
+        <Point X="14.146" Y="2.098" Type="JumpStart" />
+        <Point X="13.979" Y="2.098" Type="JumpEnd" />
+        <Point X="9" Y="2.098" />
+        <Point X="9" Y="2.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAgAAACAAAAAAAAACAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Factory\BoxBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tankists.ReloadBox" Collapsed="true">
+    <Position X="8.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Factory\ReloadBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tankists.TankProperties" Collapsed="true">
+    <Position X="11.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAQAQAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>GameObjects\Base\TankProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tankists.GameObjects.Base.ExitEvent" Collapsed="true">
+    <Position X="17.25" Y="6.75" Width="1.5" />
+    <InheritanceLine Type="JUnity.Basic.GameObject" ManuallyRouted="true">
+      <Path>
+        <Point X="14.5" Y="1.062" />
+        <Point X="14.5" Y="1.996" />
+        <Point X="16.7" Y="1.996" />
+        <Point X="16.7" Y="6.45" />
+        <Point X="18" Y="6.45" />
+        <Point X="18" Y="6.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Base\ExitEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tankists.GameObjects.Base.PresentsLauncher" Collapsed="true">
+    <Position X="17.25" Y="7.75" Width="1.5" />
+    <InheritanceLine Type="JUnity.Basic.GameObject" ManuallyRouted="true">
+      <Path>
+        <Point X="14.5" Y="1.062" />
+        <Point X="14.5" Y="1.615" />
+        <Point X="16.7" Y="1.615" />
+        <Point X="16.7" Y="7.596" />
+        <Point X="18" Y="7.596" />
+        <Point X="18" Y="7.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAgAAAAAAAAAAAAAAAACAAQAAAIAAAA=</HashCode>
+      <FileName>GameObjects\Base\PresentsLauncher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tankists.GameObjects.Rocket" Collapsed="true">
+    <Position X="13.75" Y="2.25" Width="1.5" />
+    <AssociationLine Name="animator" Type="JUnity.Graphics.Animator">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.8" Y="-0.86" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="rigidbody" Type="JUnity.Physics.Rigidbody" ManuallyRouted="true">
+      <Path>
+        <Point X="13.75" Y="2.84" />
+        <Point X="10.111" Y="2.84" />
+        <Point X="10.111" Y="5.812" />
+        <Point X="5.583" Y="5.812" Type="JumpStart" />
+        <Point X="5.417" Y="5.812" Type="JumpEnd" />
+        <Point X="3.875" Y="5.812" />
+        <Point X="3.875" Y="6.25" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-3.223" Y="0.175" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>BEgIAACAQgAAAAAQAAAAAAACCDAAAACAQAAAAAAAIIA=</HashCode>
+      <FileName>GameObjects\Base\Rocket.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="animator" />
+      <Field Name="rigidbody" />
+      <Field Name="myTank" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Tankists.GameObjects.Tank" Collapsed="true">
+    <Position X="2.5" Y="2.25" Width="1.5" />
+    <InheritanceLine Type="JUnity.Basic.GameObject" ManuallyRouted="true">
+      <Path>
+        <Point X="14.5" Y="1.062" />
+        <Point X="14.5" Y="1.387" />
+        <Point X="14.146" Y="1.387" Type="JumpStart" />
+        <Point X="13.979" Y="1.387" Type="JumpEnd" />
+        <Point X="4.333" Y="1.387" Type="JumpStart" />
+        <Point X="4.167" Y="1.387" Type="JumpEnd" />
+        <Point X="3.25" Y="1.387" />
+        <Point X="3.25" Y="2.25" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="animator" Type="JUnity.Graphics.Animator">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.028" Y="0.525" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="rigidbody" Type="JUnity.Physics.Rigidbody">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.617" Y="0.411" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="spriteRenderer" Type="JUnity.Graphics.SpriteRenderer">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.175" Y="1.089" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>BEAIgAAIBggAACAhAIEIAAAAAAIEAAAMAAAAAAAAAAQ=</HashCode>
+      <FileName>GameObjects\Base\Tank.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="animator" />
+      <Field Name="rigidbody" />
+      <Field Name="spriteRenderer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Tankists.GameObjects.GreenRocket" Collapsed="true">
+    <Position X="12.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Green\GreenRocket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tankists.GameObjects.GreenTank" Collapsed="true">
+    <Position X="1.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Green\GreenTank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tankists.GameObjects.RedRocket" Collapsed="true">
+    <Position X="15" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Red\RedRocket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tankists.GameObjects.RedTank" Collapsed="true">
+    <Position X="3.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Red\RedTank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tankists.GameObjects.Background" Collapsed="true">
+    <Position X="17.25" Y="2.25" Width="1.5" />
+    <InheritanceLine Type="JUnity.Basic.GameObject" ManuallyRouted="true">
+      <Path>
+        <Point X="14.5" Y="1.062" />
+        <Point X="14.5" Y="1.473" />
+        <Point X="18" Y="1.473" />
+        <Point X="18" Y="2.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Surroundings\Background.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tankists.GameObjects.Mountain" Collapsed="true">
+    <Position X="17.25" Y="4" Width="1.5" />
+    <InheritanceLine Type="JUnity.Basic.GameObject" ManuallyRouted="true">
+      <Path>
+        <Point X="14.5" Y="1.062" />
+        <Point X="14.5" Y="1.873" />
+        <Point X="16.7" Y="1.873" />
+        <Point X="16.7" Y="3.625" />
+        <Point X="18" Y="3.625" />
+        <Point X="18" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Surroundings\Mountain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tankists.GameObjects.Surroundings.Plane" Collapsed="true">
+    <Position X="17.25" Y="5.5" Width="1.5" />
+    <InheritanceLine Type="JUnity.Basic.GameObject" ManuallyRouted="true">
+      <Path>
+        <Point X="14.5" Y="1.062" />
+        <Point X="14.5" Y="1.752" />
+        <Point X="16.7" Y="1.752" />
+        <Point X="16.7" Y="5.125" />
+        <Point X="18" Y="5.125" />
+        <Point X="18" Y="5.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAgAgACAAAEAAAGAAABAgAQAAIAAAAQAQAAA=</HashCode>
+      <FileName>GameObjects\Surroundings\Plane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JUnity.Basic.GameObject" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <AssociationLine Name="Components" Type="JUnity.Basic.GameComponent">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.644" Y="0.306" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier />
+    <ShowAsCollectionAssociation>
+      <Property Name="Components" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="JUnity.Basic.GameComponent" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="JUnity.Graphics.Animator" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="JUnity.Physics.Rigidbody" Collapsed="true">
+    <Position X="2.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="JUnity.Graphics.SpriteRenderer" Collapsed="true">
+    <Position X="5" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

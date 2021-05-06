@@ -1,0 +1,846 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JUnity</name>
+    </assembly>
+    <members>
+        <member name="T:JUnity.Basic.GameComponent">
+            <summary>
+            Base component class
+            </summary>
+        </member>
+        <member name="F:JUnity.Basic.GameComponent.owner">
+            <summary>
+            Component owner object
+            </summary>
+        </member>
+        <member name="M:JUnity.Basic.GameComponent.#ctor(JUnity.Basic.GameObject)">
+            <summary>
+            Ctor
+            </summary>
+            <param name="object">Game object</param>
+        </member>
+        <member name="P:JUnity.Basic.GameComponent.Enabled">
+            <summary>
+            Is component enable
+            </summary>
+        </member>
+        <member name="M:JUnity.Basic.GameComponent.Dispose">
+            <summary>
+            Dispose overloading
+            </summary>
+        </member>
+        <member name="M:JUnity.Basic.GameComponent.Dispose(System.Boolean)">
+            <summary>
+            Dispose overloading
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:JUnity.Basic.GameComponent.Finalize">
+            <summary>
+            Destructor
+            </summary>
+        </member>
+        <member name="T:JUnity.Basic.GameObject">
+            <summary>
+            Base class for all game objects
+            </summary>
+        </member>
+        <member name="P:JUnity.Basic.GameObject.Components">
+            <summary>
+            Obj components
+            </summary>
+        </member>
+        <member name="P:JUnity.Basic.GameObject.FixedComponents">
+            <summary>
+            Obj fixed components
+            </summary>
+        </member>
+        <member name="M:JUnity.Basic.GameObject.GetComponent``1">
+            <summary>
+            Returns obj component
+            </summary>
+            <typeparam name="TComponent">Component type</typeparam>
+            <returns>Component</returns>
+        </member>
+        <member name="M:JUnity.Basic.GameObject.AddComponent``1">
+            <summary>
+            Creates new component
+            </summary>
+            <typeparam name="TComponent">Component type</typeparam>
+            <returns>Created component</returns>
+        </member>
+        <member name="F:JUnity.Basic.GameObject.position">
+            <summary>
+            Obj position
+            </summary>
+        </member>
+        <member name="P:JUnity.Basic.GameObject.Rotation">
+            <summary>
+            Obj rotation
+            </summary>
+        </member>
+        <member name="M:JUnity.Basic.GameObject.Update(System.Double)">
+            <summary>
+            Update function
+            </summary>
+            <param name="deltaTime">Time since last call</param>
+        </member>
+        <member name="M:JUnity.Basic.GameObject.FixedUpdate(System.Double)">
+            <summary>
+            Fixed update function
+            </summary>
+            <param name="deltaTime">Time since last call</param>
+        </member>
+        <member name="M:JUnity.Basic.GameObject.Destroy">
+            <summary>
+            Destroys obj
+            </summary>
+        </member>
+        <member name="T:JUnity.Basic.DublicateComponentException">
+            <summary>
+            Dublicate component exception
+            </summary>
+        </member>
+        <member name="M:JUnity.Basic.DublicateComponentException.#ctor">
+            <summary>
+            Exception ctor
+            </summary>
+        </member>
+        <member name="M:JUnity.Basic.DublicateComponentException.#ctor(System.String)">
+            <summary>
+            Exception ctor
+            </summary>
+            <param name="msg">Error message</param>
+        </member>
+        <member name="T:JUnity.Engine">
+            <summary>
+            Main engine class
+            </summary>
+        </member>
+        <member name="M:JUnity.Engine.#ctor">
+            <summary>
+            Default ctor
+            </summary>
+        </member>
+        <member name="M:JUnity.Engine.#ctor(System.Boolean)">
+            <summary>
+            Ctor
+            </summary>
+            <param name="drawColliders">Draw collider</param>
+        </member>
+        <member name="P:JUnity.Engine.GameObjects">
+            <summary>
+            All game objects
+            </summary>
+        </member>
+        <member name="F:JUnity.Engine.drawColliders">
+            <summary>
+            Drawing colliders flag
+            </summary>
+        </member>
+        <member name="P:JUnity.Engine.FixedUpdatePeriod">
+            <summary>
+            Time between fixed updates periods
+            </summary>
+        </member>
+        <member name="P:JUnity.Engine.ClientWidth">
+            <summary>
+            Width of client window
+            </summary>
+        </member>
+        <member name="P:JUnity.Engine.ClientHeight">
+            <summary>
+            Height of client width
+            </summary>
+        </member>
+        <member name="P:JUnity.Engine.ClearColor">
+            <summary>
+            Background color
+            </summary>
+        </member>
+        <member name="M:JUnity.Engine.RegisterObject(JUnity.Basic.GameObject)">
+            <summary>
+            Register new game object
+            </summary>
+            <param name="object">Object to register</param>
+        </member>
+        <member name="M:JUnity.Engine.Stop">
+            <summary>
+            Stops engine
+            </summary>
+        </member>
+        <member name="M:JUnity.Engine.OnLoad(System.EventArgs)">
+            <summary>
+            On load function
+            </summary>
+            <param name="e">Event args</param>
+        </member>
+        <member name="M:JUnity.Engine.OnUpdateFrame(OpenTK.FrameEventArgs)">
+            <summary>
+            On update frame
+            </summary>
+            <param name="e">Event args</param>
+        </member>
+        <member name="M:JUnity.Engine.OnRenderFrame(OpenTK.FrameEventArgs)">
+            <summary>
+            On render frame function
+            </summary>
+            <param name="e">Event args</param>
+        </member>
+        <member name="M:JUnity.Engine.OnResize(System.EventArgs)">
+            <summary>
+            On resize function
+            </summary>
+            <param name="e">Event args</param>
+        </member>
+        <member name="M:JUnity.Engine.OnUnload(System.EventArgs)">
+            <summary>
+            On unload function
+            </summary>
+            <param name="e">Event args</param>
+        </member>
+        <member name="T:JUnity.Graphics.Animator">
+            <summary>
+            Animator component
+            </summary>
+        </member>
+        <member name="P:JUnity.Graphics.Animator.AnimationFrames">
+            <summary>
+            Animation frames
+            </summary>
+        </member>
+        <member name="P:JUnity.Graphics.Animator.Delay">
+            <summary>
+            Animation delay
+            </summary>
+        </member>
+        <member name="P:JUnity.Graphics.Animator.Paused">
+            <summary>
+            Is animation paused
+            </summary>
+        </member>
+        <member name="E:JUnity.Graphics.Animator.OnAnimationEnded">
+            <summary>
+            Event on animation ended
+            </summary>
+        </member>
+        <member name="M:JUnity.Graphics.Animator.Dispose(System.Boolean)">
+            <summary>
+            Dispose interfase
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="T:JUnity.Graphics.Sprite">
+            <summary>
+            Sprite container class
+            </summary>
+        </member>
+        <member name="M:JUnity.Graphics.Sprite.#ctor(System.String)">
+            <summary>
+            Creates new sprite
+            </summary>
+            <param name="filename">Image filename</param>
+        </member>
+        <member name="M:JUnity.Graphics.Sprite.#ctor(System.String,System.Drawing.Rectangle)">
+            <summary>
+            Creates new sprite
+            </summary>
+            <param name="filename">Image filename</param>
+            <param name="rect">Source rect</param>
+        </member>
+        <member name="P:JUnity.Graphics.Sprite.DrawingRectangle">
+            <summary>
+            Image source rect
+            </summary>
+        </member>
+        <member name="P:JUnity.Graphics.Sprite.Width">
+            <summary>
+            Sprite width
+            </summary>
+        </member>
+        <member name="P:JUnity.Graphics.Sprite.Height">
+            <summary>
+            Sprite height
+            </summary>
+        </member>
+        <member name="P:JUnity.Graphics.Sprite.ZOrder">
+            <summary>
+            Sprite z order
+            </summary>
+        </member>
+        <member name="P:JUnity.Graphics.Sprite.Rotation">
+            <summary>
+            Sprite rotation
+            </summary>
+        </member>
+        <member name="P:JUnity.Graphics.Sprite.TextureRotation">
+            <summary>
+            Texture rotation
+            </summary>
+        </member>
+        <member name="P:JUnity.Graphics.Sprite.Color">
+            <summary>
+            Texture color
+            </summary>
+        </member>
+        <member name="P:JUnity.Graphics.Sprite.FlipX">
+            <summary>
+            Is sprite should be flipped by x axe
+            </summary>
+        </member>
+        <member name="P:JUnity.Graphics.Sprite.FlipY">
+            <summary>
+            Is sprite should be flipped by y axe
+            </summary>
+        </member>
+        <member name="F:JUnity.Graphics.Sprite.offset">
+            <summary>
+            Sprite offset
+            </summary>
+        </member>
+        <member name="F:JUnity.Graphics.Sprite.scale">
+            <summary>
+            Sprite scale
+            </summary>
+        </member>
+        <member name="F:JUnity.Graphics.Sprite.rotationPoint">
+            <summary>
+            Sprite rotation point
+            </summary>
+        </member>
+        <member name="M:JUnity.Graphics.Sprite.Dispose">
+            <summary>
+            IDisposable implementation
+            </summary>
+        </member>
+        <member name="M:JUnity.Graphics.Sprite.Dispose(System.Boolean)">
+            <summary>
+            IDisposable implementation
+            </summary>
+        </member>
+        <member name="M:JUnity.Graphics.Sprite.Finalize">
+            <summary>
+            Destructor
+            </summary>
+        </member>
+        <member name="T:JUnity.Graphics.SpriteRenderer">
+            <summary>
+            Sprite renderer component
+            </summary>
+        </member>
+        <member name="P:JUnity.Graphics.SpriteRenderer.Sprites">
+            <summary>
+            Sprites list
+            </summary>
+        </member>
+        <member name="M:JUnity.Graphics.SpriteRenderer.Dispose(System.Boolean)">
+            <summary>
+            IDisposable implementation
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="T:JUnity.Input.InputManager">
+            <summary>
+            Input manager class
+            </summary>
+        </member>
+        <member name="P:JUnity.Input.InputManager.KeyboardState">
+            <summary>
+            Current keyboard state
+            </summary>
+        </member>
+        <member name="M:JUnity.Input.InputManager.IsKeyJustPressed(OpenTK.Input.Key)">
+            <summary>
+            Is button was pressed on last frame
+            </summary>
+            <param name="key">Key to check</param>
+            <returns>True if pressed</returns>
+        </member>
+        <member name="T:JUnity.Physics.BaseColliderClasses.Collider">
+            <summary>
+            Base collider class
+            </summary>
+        </member>
+        <member name="P:JUnity.Physics.BaseColliderClasses.Collider.IsTrigger">
+            <summary>
+            Is trigger collider
+            </summary>
+        </member>
+        <member name="P:JUnity.Physics.BaseColliderClasses.Collider.IsStatic">
+            <summary>
+            Is static collider
+            </summary>
+        </member>
+        <member name="P:JUnity.Physics.BaseColliderClasses.Collider.Width">
+            <summary>
+            Collider width
+            </summary>
+        </member>
+        <member name="P:JUnity.Physics.BaseColliderClasses.Collider.Heigth">
+            <summary>
+            Collider height
+            </summary>
+        </member>
+        <member name="M:JUnity.Physics.BaseColliderClasses.Collider.Rotate(System.Single)">
+            <summary>
+            Rotate collider
+            </summary>
+            <param name="angle"></param>
+        </member>
+        <member name="P:JUnity.Physics.BaseColliderClasses.Collider.Rigidbody">
+            <summary>
+            Collider rigidbody component
+            </summary>
+        </member>
+        <member name="M:JUnity.Physics.BaseColliderClasses.Collider.ResolveCollision(JUnity.Physics.BaseColliderClasses.Collider)">
+            <summary>
+            Resolve collision method
+            </summary>
+            <param name="other"></param>
+        </member>
+        <member name="M:JUnity.Physics.BaseColliderClasses.Collider.Dispose">
+            <summary>
+            IDisposable implementation
+            </summary>
+        </member>
+        <member name="M:JUnity.Physics.BaseColliderClasses.Collider.Dispose(System.Boolean)">
+            <summary>
+            IDisposable implementation
+            </summary>
+        </member>
+        <member name="M:JUnity.Physics.BaseColliderClasses.Collider.Finalize">
+            <summary>
+            Destructor
+            </summary>
+        </member>
+        <member name="T:JUnity.Physics.BaseColliderClasses.PolygonCollider">
+            <summary>
+            Polygon collider base class
+            </summary>
+        </member>
+        <member name="M:JUnity.Physics.BaseColliderClasses.PolygonCollider.#ctor(OpenTK.Vector2[])">
+            <summary>
+            Collider ctor
+            </summary>
+            <param name="points"></param>
+        </member>
+        <member name="F:JUnity.Physics.BaseColliderClasses.PolygonCollider.points">
+            <summary>
+            Collider points
+            </summary>
+        </member>
+        <member name="M:JUnity.Physics.BaseColliderClasses.PolygonCollider.Rotate(System.Single)">
+            <summary>
+            Rotate function
+            </summary>
+            <param name="angle"></param>
+        </member>
+        <member name="M:JUnity.Physics.BaseColliderClasses.PolygonCollider.ResolveCollision(JUnity.Physics.BaseColliderClasses.Collider)">
+            <summary>
+            Resolve collision method
+            </summary>
+        </member>
+        <member name="T:JUnity.Physics.BoxCollider">
+            <summary>
+            Box collider class
+            </summary>
+        </member>
+        <member name="M:JUnity.Physics.BoxCollider.#ctor(OpenTK.Vector2,OpenTK.Vector2)">
+            <summary>
+            Box collider ctor
+            </summary>
+            <param name="lowerLeft">Lower left point</param>
+            <param name="upperRight">Upper right point</param>
+        </member>
+        <member name="T:JUnity.Physics.Rigidbody">
+            <summary>
+            Rigidbody component
+            </summary>
+        </member>
+        <member name="F:JUnity.Physics.Rigidbody.gravity">
+            <summary>
+            Gravity force
+            </summary>
+        </member>
+        <member name="P:JUnity.Physics.Rigidbody.UseGravity">
+            <summary>
+            Is rigidbody should use gravity
+            </summary>
+        </member>
+        <member name="P:JUnity.Physics.Rigidbody.Mass">
+            <summary>
+            Object mass
+            </summary>
+        </member>
+        <member name="F:JUnity.Physics.Rigidbody.velocity">
+            <summary>
+            Object velosity
+            </summary>
+        </member>
+        <member name="F:JUnity.Physics.Rigidbody.force">
+            <summary>
+            Object force
+            </summary>
+        </member>
+        <member name="F:JUnity.Physics.Rigidbody.resistance">
+            <summary>
+            Air resistance
+            </summary>
+        </member>
+        <member name="P:JUnity.Physics.Rigidbody.Colliders">
+            <summary>
+            Rigidbody colliders
+            </summary>
+        </member>
+        <member name="E:JUnity.Physics.Rigidbody.OnTriggerEnter">
+            <summary>
+            On trigger enter event
+            </summary>
+        </member>
+        <member name="M:JUnity.Physics.Rigidbody.Dispose(System.Boolean)">
+            <summary>
+            IDisposable implementation
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:JUnity.Physics.Rigidbody.Finalize">
+            <summary>
+            Destructor
+            </summary>
+        </member>
+        <member name="T:JUnity.Physics.TriggerEnterEventArgs">
+            <summary>
+            Trigger event arguments
+            </summary>
+        </member>
+        <member name="M:JUnity.Physics.TriggerEnterEventArgs.#ctor(JUnity.Physics.BaseColliderClasses.Collider)">
+            <summary>
+            Ctor
+            </summary>
+            <param name="other"></param>
+        </member>
+        <member name="F:JUnity.Physics.TriggerEnterEventArgs.other">
+            <summary>
+            Others collider
+            </summary>
+        </member>
+        <member name="T:JUnity.Utilities.ColliderCollection">
+            <summary>
+            Collider collection
+            </summary>
+        </member>
+        <member name="P:JUnity.Utilities.ColliderCollection.Item(System.Int32)">
+            <summary>
+            Collection indexator
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="P:JUnity.Utilities.ColliderCollection.Count">
+            <summary>
+            Elements count
+            </summary>
+        </member>
+        <member name="P:JUnity.Utilities.ColliderCollection.IsReadOnly">
+            <summary>
+            Is collection readonly
+            </summary>
+        </member>
+        <member name="M:JUnity.Utilities.ColliderCollection.Add(JUnity.Physics.BaseColliderClasses.Collider)">
+            <summary>
+            Add item
+            </summary>
+            <param name="item">Item to add</param>
+        </member>
+        <member name="M:JUnity.Utilities.ColliderCollection.Clear">
+            <summary>
+            Clear collection
+            </summary>
+        </member>
+        <member name="M:JUnity.Utilities.ColliderCollection.Contains(JUnity.Physics.BaseColliderClasses.Collider)">
+            <summary>
+            Is collection contains item
+            </summary>
+            <param name="item">Item to check</param>
+            <returns>Troo if contains</returns>
+        </member>
+        <member name="M:JUnity.Utilities.ColliderCollection.CopyTo(JUnity.Physics.BaseColliderClasses.Collider[],System.Int32)">
+            <summary>
+            Copy collection to array
+            </summary>
+            <param name="array">Array</param>
+            <param name="arrayIndex">Start index in array</param>
+        </member>
+        <member name="M:JUnity.Utilities.ColliderCollection.GetEnumerator">
+            <summary>
+            Returns enumerator
+            </summary>
+            <returns>Enumerator</returns>
+        </member>
+        <member name="M:JUnity.Utilities.ColliderCollection.Remove(JUnity.Physics.BaseColliderClasses.Collider)">
+            <summary>
+            Remove item from collection
+            </summary>
+            <param name="item">Item to remove</param>
+            <returns></returns>
+        </member>
+        <member name="M:JUnity.Utilities.ColliderCollection.Dispose">
+            <summary>
+            IDisposable implementation
+            </summary>
+        </member>
+        <member name="M:JUnity.Utilities.ColliderCollection.Dispose(System.Boolean)">
+            <summary>
+            IDisposable implementation
+            </summary>
+        </member>
+        <member name="M:JUnity.Utilities.ColliderCollection.Finalize">
+            <summary>
+            Destructor
+            </summary>
+        </member>
+        <member name="T:JUnity.Utilities.SpriteCollection">
+            <summary>
+            Sprite collection
+            </summary>
+        </member>
+        <member name="P:JUnity.Utilities.SpriteCollection.Count">
+            <summary>
+            Count of sprites in collection
+            </summary>
+        </member>
+        <member name="P:JUnity.Utilities.SpriteCollection.IsReadOnly">
+            <summary>
+            Is collection readonly
+            </summary>
+        </member>
+        <member name="E:JUnity.Utilities.SpriteCollection.OnSpriteAdded">
+            <summary>
+            On sprite added event
+            </summary>
+        </member>
+        <member name="E:JUnity.Utilities.SpriteCollection.OnSpriteRemoved">
+            <summary>
+            On sprite removed event
+            </summary>
+        </member>
+        <member name="E:JUnity.Utilities.SpriteCollection.OnCollectionChanged">
+            <summary>
+            On collection changed event
+            </summary>
+        </member>
+        <member name="M:JUnity.Utilities.SpriteCollection.AddByName(System.String,System.Nullable{System.Drawing.Rectangle})">
+            <summary>
+            Add sprite by filename
+            </summary>
+            <param name="name">Image filename</param>
+            <param name="drawingRect">Source rect</param>
+            <returns></returns>
+        </member>
+        <member name="M:JUnity.Utilities.SpriteCollection.AddByName(System.String,OpenTK.Graphics.OpenGL.TextureMinFilter,OpenTK.Graphics.OpenGL.TextureMagFilter,System.Nullable{System.Drawing.Rectangle})">
+            <summary>
+            Add sprite by filename
+            </summary>
+            <param name="name">Image filename</param>
+            <param name="textureMinFilter">Texture filtering</param>
+            <param name="textureMagFilter">Texture filtering</param>
+            <param name="drawingRect">Source rect</param>
+            <returns>Added sprite</returns>
+        </member>
+        <member name="M:JUnity.Utilities.SpriteCollection.TryGetByName(System.String,JUnity.Graphics.Sprite@)">
+            <summary>
+            Try to get image by filename
+            </summary>
+            <param name="name">Image filename</param>
+            <param name="sprite">Sprite</param>
+            <returns>True if found</returns>
+        </member>
+        <member name="P:JUnity.Utilities.SpriteCollection.Item(System.Int32)">
+            <summary>
+            Collection indexator
+            </summary>
+            <param name="index">Sprite index</param>
+            <returns>Sprite</returns>
+        </member>
+        <member name="P:JUnity.Utilities.SpriteCollection.Item(System.String)">
+            <summary>
+            Collection indexator
+            </summary>
+            <param name="name">Sprite name</param>
+            <returns>Sprite</returns>
+        </member>
+        <member name="M:JUnity.Utilities.SpriteCollection.RemoveByName(System.String)">
+            <summary>
+            Remove sprite by name
+            </summary>
+            <param name="name">Sprite name</param>
+            <returns>True if removed</returns>
+        </member>
+        <member name="M:JUnity.Utilities.SpriteCollection.SetSizeToAll(System.Int32,System.Int32)">
+            <summary>
+            Set size to all sprites
+            </summary>
+            <param name="width">Width</param>
+            <param name="height">Height</param>
+        </member>
+        <member name="M:JUnity.Utilities.SpriteCollection.SetZOrderToAll(System.Single)">
+            <summary>
+            Set z order to all sprites
+            </summary>
+            <param name="zOrder">Z order</param>
+        </member>
+        <member name="M:JUnity.Utilities.SpriteCollection.SetRotationToAll(System.Single)">
+            <summary>
+            Set rotation to all
+            </summary>
+            <param name="rotation">Rotation</param>
+        </member>
+        <member name="M:JUnity.Utilities.SpriteCollection.SetTextureRotationToAll(System.Single)">
+            <summary>
+            Set texture rotation to all
+            </summary>
+            <param name="rotation">Rotation</param>
+        </member>
+        <member name="M:JUnity.Utilities.SpriteCollection.SetColorToAll(System.Drawing.Color)">
+            <summary>
+            Set color to all
+            </summary>
+            <param name="color">Color to set</param>
+        </member>
+        <member name="M:JUnity.Utilities.SpriteCollection.SetFlipToAll(System.Boolean,System.Boolean)">
+            <summary>
+            Set flip to all
+            </summary>
+            <param name="flipX">Flip by x</param>
+            <param name="flipY">Flip by y</param>
+        </member>
+        <member name="M:JUnity.Utilities.SpriteCollection.SetOffsetToAll(System.Single,System.Single)">
+            <summary>
+            Set offset to all
+            </summary>
+            <param name="offsetX">X offset</param>
+            <param name="offsetY">Y offset</param>
+        </member>
+        <member name="M:JUnity.Utilities.SpriteCollection.SetOffsetToAll(OpenTK.Vector2)">
+            <summary>
+            Set offset to all
+            </summary>
+            <param name="offset">Offset</param>
+        </member>
+        <member name="M:JUnity.Utilities.SpriteCollection.SetScaleToAll(System.Single,System.Single)">
+            <summary>
+            Set scale to all
+            </summary>
+            <param name="scaleX">X scale</param>
+            <param name="scaleY">Y scale</param>
+        </member>
+        <member name="M:JUnity.Utilities.SpriteCollection.SetScaleToAll(System.Single)">
+            <summary>
+            Set scale to all
+            </summary>
+            <param name="scale">Scale</param>
+        </member>
+        <member name="M:JUnity.Utilities.SpriteCollection.SetRotationPointToAll(System.Single,System.Single)">
+            <summary>
+            Set rotation point to all
+            </summary>
+            <param name="x">X</param>
+            <param name="y">Y</param>
+        </member>
+        <member name="M:JUnity.Utilities.SpriteCollection.SetRotationPointToAll(OpenTK.Vector2)">
+            <summary>
+            Set rotation point to all
+            </summary>
+            <param name="rotation">Rotation point</param>
+        </member>
+        <member name="M:JUnity.Utilities.SpriteCollection.Add(JUnity.Graphics.Sprite)">
+            <summary>
+            Add sprite
+            </summary>
+            <param name="item">Sprite to add</param>
+        </member>
+        <member name="M:JUnity.Utilities.SpriteCollection.AddRange(System.Collections.Generic.IEnumerable{JUnity.Graphics.Sprite})">
+            <summary>
+            Add range to collection
+            </summary>
+            <param name="spritesRange">Range to add</param>
+        </member>
+        <member name="M:JUnity.Utilities.SpriteCollection.Clear">
+            <summary>
+            Clear collection
+            </summary>
+        </member>
+        <member name="M:JUnity.Utilities.SpriteCollection.Contains(JUnity.Graphics.Sprite)">
+            <summary>
+            Is collection contains item
+            </summary>
+            <param name="item">Item to check</param>
+            <returns>True if contains</returns>
+        </member>
+        <member name="M:JUnity.Utilities.SpriteCollection.CopyTo(JUnity.Graphics.Sprite[],System.Int32)">
+            <summary>
+            Copy sprites to array
+            </summary>
+            <param name="array">Array</param>
+            <param name="arrayIndex">Index to start copy</param>
+        </member>
+        <member name="M:JUnity.Utilities.SpriteCollection.GetEnumerator">
+            <summary>
+            Returns enumerator
+            </summary>
+            <returns>Enumerator</returns>
+        </member>
+        <member name="M:JUnity.Utilities.SpriteCollection.Remove(JUnity.Graphics.Sprite)">
+            <summary>
+            Remove sprite
+            </summary>
+            <param name="item">Sprite to remove</param>
+            <returns></returns>
+        </member>
+        <member name="M:JUnity.Utilities.SpriteCollection.Dispose">
+            <summary>
+            IDisposable implementation
+            </summary>
+        </member>
+        <member name="M:JUnity.Utilities.SpriteCollection.Dispose(System.Boolean)">
+            <summary>
+            IDisposable implementation
+            </summary>
+        </member>
+        <member name="M:JUnity.Utilities.SpriteCollection.Finalize">
+            <summary>
+            Destructor
+            </summary>
+        </member>
+        <member name="T:JUnity.Utilities.SpriteEventArgs">
+            <summary>
+            Contains info aboud added/removed sprite
+            </summary>
+        </member>
+        <member name="M:JUnity.Utilities.SpriteEventArgs.#ctor(JUnity.Graphics.Sprite)">
+            <summary>
+            Creates new event args
+            </summary>
+            <param name="sprite">Added or removed sprite</param>
+        </member>
+        <member name="P:JUnity.Utilities.SpriteEventArgs.Sprite">
+            <summary>
+            Added / removed sprite
+            </summary>
+        </member>
+        <member name="T:JUnity.Utilities.TransformationHelper">
+            <summary>
+            Helper class
+            </summary>
+        </member>
+        <member name="M:JUnity.Utilities.TransformationHelper.RotateAroundPoint(JUnity.Basic.GameObject,OpenTK.Vector2,System.Single)">
+            <summary>
+            Rotate obj around point
+            </summary>
+            <param name="obj">Object</param>
+            <param name="point">Point</param>
+            <param name="angle">Angle</param>
+        </member>
+    </members>
+</doc>

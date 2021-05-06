@@ -1,0 +1,431 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Tankists</name>
+    </assembly>
+    <members>
+        <member name="T:Tankists.AmmoBonus">
+            <summary>
+            Ammo decorator
+            </summary>
+        </member>
+        <member name="M:Tankists.AmmoBonus.#ctor(Tankists.TankProperties)">
+            <summary>
+            Decoration ctor
+            </summary>
+            <param name="tankProperties">Props to decorate</param>
+        </member>
+        <member name="T:Tankists.ArmorBonus">
+            <summary>
+            Armor decorator
+            </summary>
+        </member>
+        <member name="M:Tankists.ArmorBonus.#ctor(Tankists.TankProperties)">
+            <summary>
+            Armor decorator ctor
+            </summary>
+            <param name="tankProperties">Props to decorate</param>
+        </member>
+        <member name="P:Tankists.ArmorBonus.ArmorResistance">
+            <summary>
+            Decorated armor resistance
+            </summary>
+        </member>
+        <member name="T:Tankists.ReloadBonus">
+            <summary>
+            Reload bonus decorator
+            </summary>
+        </member>
+        <member name="M:Tankists.ReloadBonus.#ctor(Tankists.TankProperties)">
+            <summary>
+            Decorator ctor
+            </summary>
+            <param name="tankProperties">Props to decorate</param>
+        </member>
+        <member name="P:Tankists.ReloadBonus.ReloadTime">
+            <summary>
+            Overloaded reload time prop
+            </summary>
+        </member>
+        <member name="T:Tankists.Bonus">
+            <summary>
+            Decorator base class
+            </summary>
+        </member>
+        <member name="F:Tankists.Bonus.tankProperties">
+            <summary>
+            Props to decorate
+            </summary>
+        </member>
+        <member name="M:Tankists.Bonus.#ctor(Tankists.TankProperties)">
+            <summary>
+            Decorator ctor
+            </summary>
+            <param name="tankProperties"></param>
+        </member>
+        <member name="P:Tankists.Bonus.Ammo">
+            <summary>
+            Ammo
+            </summary>
+        </member>
+        <member name="P:Tankists.Bonus.ArmorResistance">
+            <summary>
+            Armor resistence
+            </summary>
+        </member>
+        <member name="P:Tankists.Bonus.EnginePower">
+            <summary>
+            Engine power
+            </summary>
+        </member>
+        <member name="P:Tankists.Bonus.Hp">
+            <summary>
+            Tank hp
+            </summary>
+        </member>
+        <member name="P:Tankists.Bonus.ReloadTime">
+            <summary>
+            Missle reload time
+            </summary>
+        </member>
+        <member name="T:Tankists.AmmoBox">
+            <summary>
+            Ammo box class
+            </summary>
+        </member>
+        <member name="M:Tankists.AmmoBox.#ctor(OpenTK.Vector2)">
+            <summary>
+            Ctor
+            </summary>
+            <param name="pos">Spawn position</param>
+        </member>
+        <member name="M:Tankists.AmmoBox.Decorate(Tankists.GameObjects.Tank)">
+            <summary>
+            Decorate method
+            </summary>
+            <param name="tank">Tank to decorate</param>
+        </member>
+        <member name="T:Tankists.ArmorBox">
+            <summary>
+            Armor box class
+            </summary>
+        </member>
+        <member name="M:Tankists.ArmorBox.#ctor(OpenTK.Vector2)">
+            <summary>
+            Ctor
+            </summary>
+            <param name="pos">Spawn position</param>
+        </member>
+        <member name="M:Tankists.ArmorBox.Decorate(Tankists.GameObjects.Tank)">
+            <summary>
+            Decorate method
+            </summary>
+            <param name="tank">Tank to decorate</param>
+        </member>
+        <member name="T:Tankists.BoxBase">
+            <summary>
+            Box base class
+            </summary>
+        </member>
+        <member name="M:Tankists.BoxBase.#ctor(System.String,OpenTK.Vector2)">
+            <summary>
+            Ctor
+            </summary>
+            <param name="emplemPath">Emblem sprite path</param>
+            <param name="pos">Spawn position</param>
+        </member>
+        <member name="M:Tankists.BoxBase.FixedUpdate(System.Double)">
+            <summary>
+            Fixed update method
+            </summary>
+            <param name="deltaTime"></param>
+        </member>
+        <member name="M:Tankists.BoxBase.Decorate(Tankists.GameObjects.Tank)">
+            <summary>
+            Decorate method
+            </summary>
+            <param name="tank">Tank to decorate</param>
+        </member>
+        <member name="T:Tankists.BoxesFactory">
+            <summary>
+            Boxes factory
+            </summary>
+        </member>
+        <member name="M:Tankists.BoxesFactory.GetRandomBox(OpenTK.Vector2)">
+            <summary>
+            Returns random box
+            </summary>
+            <param name="pos">Spawn position</param>
+            <returns></returns>
+        </member>
+        <member name="M:Tankists.BoxesFactory.GetAmmoBox(OpenTK.Vector2)">
+            <summary>
+            Returns ammo box
+            </summary>
+            <param name="pos">Spawn position</param>
+            <returns></returns>
+        </member>
+        <member name="T:Tankists.ReloadBox">
+            <summary>
+            Reload box class
+            </summary>
+        </member>
+        <member name="M:Tankists.ReloadBox.#ctor(OpenTK.Vector2)">
+            <summary>
+            Ctor
+            </summary>
+            <param name="pos">Spawn position</param>
+        </member>
+        <member name="M:Tankists.ReloadBox.Decorate(Tankists.GameObjects.Tank)">
+            <summary>
+            Decorate method
+            </summary>
+            <param name="tank">Tank to decorate</param>
+        </member>
+        <member name="T:Tankists.GameObjects.Base.ExitEvent">
+            <summary>
+            Exit event listener class
+            </summary>
+        </member>
+        <member name="M:Tankists.GameObjects.Base.ExitEvent.FixedUpdate(System.Double)">
+            <summary>
+            Fixed update
+            </summary>
+            <param name="deltaTime">Time between frames</param>
+        </member>
+        <member name="T:Tankists.GameObjects.Base.PresentsLauncher">
+            <summary>
+            Presents launcher class
+            </summary>
+        </member>
+        <member name="M:Tankists.GameObjects.Base.PresentsLauncher.#ctor(Tankists.GameObjects.RedTank,Tankists.GameObjects.GreenTank)">
+            <summary>
+            Ctor
+            </summary>
+            <param name="_redTank">First tank</param>
+            <param name="_greenTank">Second tank</param>
+        </member>
+        <member name="M:Tankists.GameObjects.Base.PresentsLauncher.FixedUpdate(System.Double)">
+            <summary>
+            Fixed update method
+            </summary>
+            <param name="deltaTime">Time between frames</param>
+        </member>
+        <member name="T:Tankists.GameObjects.Rocket">
+            <summary>
+            Rocket base class
+            </summary>
+        </member>
+        <member name="P:Tankists.GameObjects.Rocket.Damage">
+            <summary>
+            Rocket damage
+            </summary>
+        </member>
+        <member name="F:Tankists.GameObjects.Rocket.sprite">
+            <summary>
+            Rocket sprite
+            </summary>
+        </member>
+        <member name="F:Tankists.GameObjects.Rocket.animator">
+            <summary>
+            Rocket animator
+            </summary>
+        </member>
+        <member name="F:Tankists.GameObjects.Rocket.force">
+            <summary>
+            Rocket force
+            </summary>
+        </member>
+        <member name="F:Tankists.GameObjects.Rocket.forceTime">
+            <summary>
+            Rocket force time
+            </summary>
+        </member>
+        <member name="M:Tankists.GameObjects.Rocket.#ctor(System.String)">
+            <summary>
+            Ctor
+            </summary>
+            <param name="spriteFilename">Image filename</param>
+        </member>
+        <member name="M:Tankists.GameObjects.Rocket.FixedUpdate(System.Double)">
+            <summary>
+            Fixed update method
+            </summary>
+            <param name="deltaTime">Time between frames</param>
+        </member>
+        <member name="M:Tankists.GameObjects.Rocket.Launch">
+            <summary>
+            Launch rocket method
+            </summary>
+        </member>
+        <member name="M:Tankists.GameObjects.Rocket.Boom(System.Object,System.EventArgs)">
+            <summary>
+            Tank explosion
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:Tankists.GameObjects.Tank">
+            <summary>
+            Base tank class
+            </summary>
+        </member>
+        <member name="P:Tankists.GameObjects.Tank.TankProperties">
+            <summary>
+            Tank props
+            </summary>
+        </member>
+        <member name="F:Tankists.GameObjects.Tank.launcherRotationSpeed">
+            <summary>
+            Launcher rotation speed
+            </summary>
+        </member>
+        <member name="F:Tankists.GameObjects.Tank.spriteRenderer">
+            <summary>
+            Sprite renderer
+            </summary>
+        </member>
+        <member name="F:Tankists.GameObjects.Tank.rigidbody">
+            <summary>
+            Rigidbody
+            </summary>
+        </member>
+        <member name="F:Tankists.GameObjects.Tank.animator">
+            <summary>
+            Animator
+            </summary>
+        </member>
+        <member name="F:Tankists.GameObjects.Tank.launcher">
+            <summary>
+            Launcher
+            </summary>
+        </member>
+        <member name="F:Tankists.GameObjects.Tank.dot">
+            <summary>
+            Dot sprite
+            </summary>
+        </member>
+        <member name="P:Tankists.GameObjects.Tank.RocketsPositions">
+            <summary>
+            Rocket positions array
+            </summary>
+        </member>
+        <member name="M:Tankists.GameObjects.Tank.#ctor(System.String,System.String,System.Type)">
+            <summary>
+            Ctor
+            </summary>
+            <param name="bodySpritePath">Tank body sprite</param>
+            <param name="launcherSpritePath">Launcher sprite path</param>
+            <param name="rocketType">Rocket type</param>
+        </member>
+        <member name="M:Tankists.GameObjects.Tank.FixedUpdate(System.Double)">
+            <summary>
+            Fixed update method
+            </summary>
+            <param name="deltaTime">Time between frames</param>
+        </member>
+        <member name="M:Tankists.GameObjects.Tank.Fire">
+            <summary>
+            Launch rocket
+            </summary>
+        </member>
+        <member name="M:Tankists.GameObjects.Tank.ReloadRocket">
+            <summary>
+            Reload rocket
+            </summary>
+        </member>
+        <member name="M:Tankists.GameObjects.Tank.Die">
+            <summary>
+            Die
+            </summary>
+        </member>
+        <member name="T:Tankists.LauncherForm">
+            <summary>
+            Launcher form
+            </summary>
+        </member>
+        <member name="M:Tankists.LauncherForm.#ctor">
+            <summary>
+            Form ctor
+            </summary>
+        </member>
+        <member name="F:Tankists.LauncherForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Tankists.LauncherForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Tankists.LauncherForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Tankists.TankProperties">
+            <summary>
+            Tank props
+            </summary>
+        </member>
+        <member name="M:Tankists.TankProperties.#ctor">
+            <summary>
+            Props ctor
+            </summary>
+        </member>
+        <member name="P:Tankists.TankProperties.Hp">
+            <summary>
+            Tank hp
+            </summary>
+        </member>
+        <member name="P:Tankists.TankProperties.ReloadTime">
+            <summary>
+            Reload time
+            </summary>
+        </member>
+        <member name="P:Tankists.TankProperties.Ammo">
+            <summary>
+            Tank ammo
+            </summary>
+        </member>
+        <member name="P:Tankists.TankProperties.ArmorResistance">
+            <summary>
+            Tank armor resistance
+            </summary>
+        </member>
+        <member name="P:Tankists.TankProperties.EnginePower">
+            <summary>
+            Tank engine power
+            </summary>
+        </member>
+        <member name="M:Tankists.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:Tankists.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Tankists.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Tankists.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Tankists.Properties.Resources.Logo">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+    </members>
+</doc>
