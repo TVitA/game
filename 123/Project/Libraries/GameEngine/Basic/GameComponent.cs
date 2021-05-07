@@ -18,7 +18,7 @@ namespace GameEngine.Basic
         private Boolean enabled;
 
         /// <summary>
-        /// Constructor
+        /// Game component constructor
         /// </summary>
         /// <param name="owner">Owner of component</param>
         private protected GameComponent(GameObject owner)
@@ -28,12 +28,12 @@ namespace GameEngine.Basic
         }
 
         /// <summary>
-        /// Getter of field 'owner'
+        /// Returns owner
         /// </summary>
         public GameObject Owner => owner;
 
         /// <summary>
-        /// Getter and setter of field 'enabled'
+        /// Returns enabled
         /// </summary>
         public Boolean Enabled
         {
@@ -42,8 +42,15 @@ namespace GameEngine.Basic
             set => enabled = value;
         }
 
+        /// <summary>
+        /// Some actions when game component register
+        /// </summary>
         internal virtual void OnRegisterComponent() { }
 
+        /// <summary>
+        /// Functional of game component
+        /// </summary>
+        /// <param name="deltaTime"></param>
         internal abstract void CallComponent(Double deltaTime);
 
         /// <summary>
