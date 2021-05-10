@@ -1,0 +1,46 @@
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\First player\Red_launcher.png
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\First player\Red_rocket.png
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\First player\Red_tank.png
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Others\Ammo.png
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Others\Background.jpg
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Others\Background2.jpg
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Others\Box.png
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Others\Explosion.png
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Others\Fire.png
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Others\JetStream.png
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Others\Launcher_pulley.png
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Others\Logo.png
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Others\Mountain.png
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Others\Plane.png
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Others\Reload.png
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Others\Shield.png
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Others\Track_pos1.png
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Others\Track_pos2.png
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Second player\Green_launcher.png
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Second player\Green_rocket.png
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Second player\Green_tank.png
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Game.Tests.dll
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Game.Tests.pdb
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Game.exe
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\GameEngine.dll
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\OpenTK.dll
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Game.pdb
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Game.exe.config
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\GameEngine.pdb
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\OpenTK.pdb
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\OpenTK.xml
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\obj\Debug\Game.Tests.csprojAssemblyReference.cache
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\obj\Debug\Game.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\obj\Debug\Game.Tests.csproj.CopyComplete
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\obj\Debug\Game.Tests.dll
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\obj\Debug\Game.Tests.pdb

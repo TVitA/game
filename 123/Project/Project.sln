@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameEngine", "Libraries\Gam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{A0801DDE-FB52-436F-BFC1-0CFA9C67BE7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Tests", "Tests\Game.Tests\Game.Tests.csproj", "{37AB812E-652F-4B5D-9EC2-E327075E143B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,12 +27,17 @@ Global
 		{A0801DDE-FB52-436F-BFC1-0CFA9C67BE7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0801DDE-FB52-436F-BFC1-0CFA9C67BE7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0801DDE-FB52-436F-BFC1-0CFA9C67BE7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37AB812E-652F-4B5D-9EC2-E327075E143B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37AB812E-652F-4B5D-9EC2-E327075E143B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37AB812E-652F-4B5D-9EC2-E327075E143B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37AB812E-652F-4B5D-9EC2-E327075E143B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C1B3E4D9-43E4-4ED2-BE7C-A3E6302717E7} = {54CE6656-424D-4743-A65F-5277FD08F0F0}
+		{37AB812E-652F-4B5D-9EC2-E327075E143B} = {D4601BF4-BE9E-4C91-8CA8-CF91340A16FB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {20E17AA3-28EE-4252-B739-AD0C0F18CB2C}
