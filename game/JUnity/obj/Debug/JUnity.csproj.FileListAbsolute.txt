@@ -20,3 +20,14 @@ C:\Users\Titan\Desktop\game\JUnity\obj\Debug\JUnity.csproj.CoreCompileInputs.cac
 C:\Users\Titan\Desktop\game\JUnity\obj\Debug\JUnity.csproj.CopyComplete
 C:\Users\Titan\Desktop\game\JUnity\obj\Debug\JUnity.dll
 C:\Users\Titan\Desktop\game\JUnity\obj\Debug\JUnity.pdb
+C:\Users\Phoenix\Desktop\game\game\JUnity\bin\Debug\JUnity.xml
+C:\Users\Phoenix\Desktop\game\game\JUnity\bin\Debug\JUnity.dll
+C:\Users\Phoenix\Desktop\game\game\JUnity\bin\Debug\JUnity.pdb
+C:\Users\Phoenix\Desktop\game\game\JUnity\bin\Debug\OpenTK.dll
+C:\Users\Phoenix\Desktop\game\game\JUnity\bin\Debug\OpenTK.pdb
+C:\Users\Phoenix\Desktop\game\game\JUnity\bin\Debug\OpenTK.xml
+C:\Users\Phoenix\Desktop\game\game\JUnity\obj\Debug\JUnity.csprojAssemblyReference.cache
+C:\Users\Phoenix\Desktop\game\game\JUnity\obj\Debug\JUnity.csproj.CoreCompileInputs.cache
+C:\Users\Phoenix\Desktop\game\game\JUnity\obj\Debug\JUnity.csproj.CopyComplete
+C:\Users\Phoenix\Desktop\game\game\JUnity\obj\Debug\JUnity.dll
+C:\Users\Phoenix\Desktop\game\game\JUnity\obj\Debug\JUnity.pdb

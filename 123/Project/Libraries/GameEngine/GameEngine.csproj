@@ -52,11 +52,29 @@
     <Compile Include="Basic\RotationEventArgs.cs" />
     <Compile Include="Engine.cs" />
     <Compile Include="Exceptions\DublicateComponentException.cs" />
+    <Compile Include="Graphics\Animator.cs" />
+    <Compile Include="Graphics\Sprite.cs" />
+    <Compile Include="Graphics\SpriteRenderer.cs" />
+    <Compile Include="Graphics\Texture2D.cs" />
+    <Compile Include="Input\InputManager.cs" />
+    <Compile Include="Physics\BaseColliderClasses\AxisAlignedBoundingBox.cs" />
+    <Compile Include="Physics\BaseColliderClasses\Collider.cs" />
+    <Compile Include="Physics\BaseColliderClasses\PolygonCollider.cs" />
+    <Compile Include="Physics\BoxCollider.cs" />
+    <Compile Include="Physics\Rigidbody.cs" />
+    <Compile Include="Physics\TriggerEnterEventArgs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\ColliderCollection.cs" />
+    <Compile Include="Utilities\RenderOrder.cs" />
+    <Compile Include="Utilities\ResourceLoader.cs" />
+    <Compile Include="Utilities\SpriteCollection.cs" />
+    <Compile Include="Utilities\SpriteEventArgs.cs" />
+    <Compile Include="Utilities\TransformationHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="OpenTK.dll.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

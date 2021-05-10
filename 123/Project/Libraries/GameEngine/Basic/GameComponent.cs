@@ -3,58 +3,59 @@
 namespace GameEngine.Basic
 {
     /// <summary>
-    /// Base class for all game components of game objects
+    /// Base component class.
     /// </summary>
-    public abstract class GameComponent : Object, IDisposable
+    public abstract class GameComponent : IDisposable
     {
         /// <summary>
-        /// Owner of component
+        /// Component owner object.
         /// </summary>
         private readonly GameObject owner;
 
         /// <summary>
-        /// Define whether enabled component
+        /// Is component enable.
         /// </summary>
         private Boolean enabled;
 
         /// <summary>
-        /// Game component constructor
+        /// Game component constructor.
         /// </summary>
-        /// <param name="owner">Owner of component</param>
-        private protected GameComponent(GameObject owner)
-            : base()
+        /// <param name="owner">Onwer of game component.</param>
+        internal GameComponent(GameObject owner)
         {
             this.owner = owner;
+
+            enabled = true;
         }
 
         /// <summary>
-        /// Returns owner
+        /// Returns owner of this component.
         /// </summary>
         public GameObject Owner => owner;
 
         /// <summary>
-        /// Returns enabled
+        /// Returns whether enabled this component.
         /// </summary>
         public Boolean Enabled
-        {
+        { 
             get => enabled;
-
+            
             set => enabled = value;
         }
 
         /// <summary>
-        /// Some actions when game component register
+        /// Call when registered this component.
         /// </summary>
         internal virtual void OnRegisterComponent() { }
 
         /// <summary>
-        /// Functional of game component
+        /// Call by engine every frame for concrete component.
         /// </summary>
-        /// <param name="deltaTime"></param>
+        /// <param name="deltaTime">Time between frames.</param>
         internal abstract void CallComponent(Double deltaTime);
 
         /// <summary>
-        /// Realization of method 'Dispose' of 'IDisposible' interface
+        /// Dispose overloading.
         /// </summary>
         public void Dispose()
         {
@@ -64,13 +65,13 @@ namespace GameEngine.Basic
         }
 
         /// <summary>
-        /// Dispose overloading
+        /// Dispose overloading.
         /// </summary>
-        /// <param name="disposing"></param>
+        /// <param name="disposing">Clean up managed code.</param>
         private protected abstract void Dispose(Boolean disposing);
 
         /// <summary>
-        /// Destructor
+        /// Destructor.
         /// </summary>
         ~GameComponent()
         {

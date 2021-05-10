@@ -10,58 +10,66 @@ using GameEngine.Exceptions;
 namespace GameEngine.Basic
 {
     /// <summary>
-    /// Base class for all game objects
+    /// Base class for all game objects.
     /// </summary>
     public abstract class GameObject : Object
     {
         /// <summary>
-        /// Change rotation event
+        /// Change rotation event.
         /// </summary>
         internal event EventHandler<RotationEventArgs> ChangeRotation;
 
         /// <summary>
-        /// List of components
+        /// List of components.
         /// </summary>
         private readonly List<GameComponent> components;
         /// <summary>
-        /// List of fixed components
+        /// List of fixed components.
         /// </summary>
         private readonly List<GameComponent> fixedComponents;
 
         /// <summary>
-        /// Position
+        /// Position.
         /// </summary>
         private Vector2 position;
         /// <summary>
-        /// Rotation
+        /// Rotation.
         /// </summary>
         private Single rotation;
 
         /// <summary>
-        /// Game object constructor
+        /// Game object constructor.
         /// </summary>
         public GameObject()
             : base()
         {
+            components = new List<GameComponent>();
+
+            fixedComponents = new List<GameComponent>();
         }
 
         /// <summary>
-        /// Returns list of components of this game object
+        /// Returns list of components of this game object.
         /// </summary>
         public List<GameComponent> Components => components;
 
         /// <summary>
-        /// Returns list of fixed components of this game object
+        /// Returns list of fixed components of this game object.
         /// </summary>
         public List<GameComponent> FixedComponents => fixedComponents;
 
         /// <summary>
-        /// Returns position
+        /// Returns position.
         /// </summary>
-        public Vector2 Position => position;
+        public Vector2 Position
+        {
+            get => position;
+
+            set => position = value;
+        }
 
         /// <summary>
-        /// Returns rotation or set new value to rotation and then call ChangeRotation event
+        /// Returns rotation or set new value to rotation and then call ChangeRotation event.
         /// </summary>
         public Single Rotation
         {
@@ -81,9 +89,9 @@ namespace GameEngine.Basic
         }
 
         /// <summary>
-        /// Call registered methods on ChangeRotation event
+        /// Call registered methods on ChangeRotation event.
         /// </summary>
-        /// <param name="e"></param>
+        /// <param name="e">Rotation event arguments.</param>
         protected virtual void OnChangeRotation(RotationEventArgs e)
         {
             var temp = Volatile.Read(ref ChangeRotation);
@@ -92,10 +100,10 @@ namespace GameEngine.Basic
         }
 
         /// <summary>
-        /// Returns game object component of TComponent type
+        /// Returns game object component of TComponent type.
         /// </summary>
-        /// <typeparam name="TComponent">Component type</typeparam>
-        /// <returns>Component</returns>
+        /// <typeparam name="TComponent">Component type.</typeparam>
+        /// <returns>Component.</returns>
         public TComponent GetComponent<TComponent>()
             where TComponent : GameComponent
         {
@@ -111,10 +119,10 @@ namespace GameEngine.Basic
         }
 
         /// <summary>
-        /// Creates new component
+        /// Creates new component.
         /// </summary>
-        /// <typeparam name="TComponent">Component type</typeparam>
-        /// <returns>Created component</returns>
+        /// <typeparam name="TComponent">Component type.</typeparam>
+        /// <returns>Created component.</returns>
         public TComponent AddComponent<TComponent>()
             where TComponent : GameComponent
         {
@@ -140,7 +148,7 @@ namespace GameEngine.Basic
         }
 
         /// <summary>
-        /// Call OnRegisterComponent of each component of this game object
+        /// Call OnRegisterComponent of each component of this game object.
         /// </summary>
         internal void OnRegisterObject()
         {
@@ -157,9 +165,9 @@ namespace GameEngine.Basic
 
         /// <summary>
         /// Call Update
-        /// Call CallComponent of each enabled component of this game object
+        /// Call CallComponent of each enabled component of this game object.
         /// </summary>
-        /// <param name="deltaTime">Time since last call</param>
+        /// <param name="deltaTime">Time since last call.</param>
         internal void OnUpdate(Double deltaTime)
         {
             Update(deltaTime);
@@ -174,10 +182,10 @@ namespace GameEngine.Basic
         }
 
         /// <summary>
-        /// Call FixedUpdate
-        /// Call CallComponent of each enabled fixed component of this game object
+        /// Call FixedUpdate.
+        /// Call CallComponent of each enabled fixed component of this game object.
         /// </summary>
-        /// <param name="deltaTime">Time since last call</param>
+        /// <param name="deltaTime">Time since last call.</param>
         internal void OnFixedUpdate(Double deltaTime)
         {
             FixedUpdate(deltaTime);
@@ -192,23 +200,23 @@ namespace GameEngine.Basic
         }
 
         /// <summary>
-        /// Update function
+        /// Update function.
         /// </summary>
-        /// <param name="deltaTime">Time since last call</param>
+        /// <param name="deltaTime">Time since last call.</param>
         public virtual void Update(Double deltaTime) { }
 
         /// <summary>
-        /// Fixed update function
+        /// Fixed update function.
         /// </summary>
-        /// <param name="deltaTime">Time since last call</param>
+        /// <param name="deltaTime">Time since last call.</param>
         public virtual void FixedUpdate(Double deltaTime) { }
 
         /// <summary>
-        /// Add this game object in queue of destroying
+        /// Add this game object in queue of destroying.
         /// </summary>
         public void Destroy()
         {
-            Engine.objectsToDelete.Enqueue(this);
+            Engine.ObjectsToDelete.Enqueue(this);
         }
     }
 }

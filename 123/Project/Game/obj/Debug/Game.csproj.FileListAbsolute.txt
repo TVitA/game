@@ -1,0 +1,37 @@
+C:\Users\Phoenix\Desktop\game\123\Project\Game\obj\Debug\Game.csprojAssemblyReference.cache
+C:\Users\Phoenix\Desktop\game\123\Project\Game\obj\Debug\Game.Launcher.resources
+C:\Users\Phoenix\Desktop\game\123\Project\Game\obj\Debug\Game.Properties.Resources.resources
+C:\Users\Phoenix\Desktop\game\123\Project\Game\obj\Debug\Game.csproj.GenerateResource.cache
+C:\Users\Phoenix\Desktop\game\123\Project\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\First player\Red_launcher.png
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\First player\Red_rocket.png
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\First player\Red_tank.png
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Others\Ammo.png
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Others\Background.jpg
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Others\Background2.jpg
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Others\Box.png
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Others\Explosion.png
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Others\Fire.png
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Others\JetStream.png
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Others\Launcher_pulley.png
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Others\Logo.png
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Others\Mountain.png
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Others\Plane.png
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Others\Reload.png
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Others\Shield.png
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Others\Track_pos1.png
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Others\Track_pos2.png
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Second player\Green_launcher.png
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Second player\Green_rocket.png
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Second player\Green_tank.png
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Game.exe.config
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Game.exe
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Game.pdb
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\GameEngine.dll
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\OpenTK.dll
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\GameEngine.pdb
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\OpenTK.pdb
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\OpenTK.xml
+C:\Users\Phoenix\Desktop\game\123\Project\Game\obj\Debug\Game.csproj.CopyComplete
+C:\Users\Phoenix\Desktop\game\123\Project\Game\obj\Debug\Game.exe
+C:\Users\Phoenix\Desktop\game\123\Project\Game\obj\Debug\Game.pdb

@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D4601BF4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameEngine", "Libraries\GameEngine\GameEngine.csproj", "{C1B3E4D9-43E4-4ED2-BE7C-A3E6302717E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{A0801DDE-FB52-436F-BFC1-0CFA9C67BE7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{C1B3E4D9-43E4-4ED2-BE7C-A3E6302717E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1B3E4D9-43E4-4ED2-BE7C-A3E6302717E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1B3E4D9-43E4-4ED2-BE7C-A3E6302717E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0801DDE-FB52-436F-BFC1-0CFA9C67BE7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0801DDE-FB52-436F-BFC1-0CFA9C67BE7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0801DDE-FB52-436F-BFC1-0CFA9C67BE7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0801DDE-FB52-436F-BFC1-0CFA9C67BE7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
