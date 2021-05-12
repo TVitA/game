@@ -33,7 +33,7 @@ namespace Game.GameObjects
             this.firstArtillery = firstArtillery;
             this.secondArtillery = secondArtillery;
 
-            next = random.Next(10, 20);
+            next = random.Next(3, 5);
         }
 
         /// <summary>
@@ -46,7 +46,7 @@ namespace Game.GameObjects
 
             if (next <= 0.0f)
             {
-                next = random.Next(10, 50);
+                next = random.Next(3, 5);
 
                 if (firstArtillery.ArtilleryProperties.Ammo == 0)
                 {

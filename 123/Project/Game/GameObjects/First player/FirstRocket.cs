@@ -9,7 +9,7 @@
         /// First rocket constructor.
         /// </summary>
         public FirstRocket()
-            : base(@"Textures\First player\Red_rocket.png")
+            : base(@"Textures\First player\First_rocket.png")
         {
             Animator.AnimationFrames.SetOffsetToAll(-70.0f, 0.0f);
             Animator.AnimationFrames.SetRotationPointToAll(70.0f, 0.0f);

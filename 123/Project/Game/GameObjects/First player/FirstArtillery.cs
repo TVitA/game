@@ -21,7 +21,7 @@ namespace Game.GameObjects
         /// First artillery constructor.
         /// </summary>
         public FirstArtillery()
-            : base(@"Textures\First player\Red_tank.png", @"Textures\First player\Red_launcher.png", typeof(FirstRocket))
+            : base(@"Textures\First player\First_artillery.png", @"Textures\First player\First_launcher.png", typeof(FirstRocket))
         {
             rocketsPositions = new[]
             {

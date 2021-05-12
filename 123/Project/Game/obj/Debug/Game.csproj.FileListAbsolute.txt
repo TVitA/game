@@ -3,9 +3,6 @@ C:\Users\Phoenix\Desktop\game\123\Project\Game\obj\Debug\Game.Launcher.resources
 C:\Users\Phoenix\Desktop\game\123\Project\Game\obj\Debug\Game.Properties.Resources.resources
 C:\Users\Phoenix\Desktop\game\123\Project\Game\obj\Debug\Game.csproj.GenerateResource.cache
 C:\Users\Phoenix\Desktop\game\123\Project\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
-C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\First player\Red_launcher.png
-C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\First player\Red_rocket.png
-C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\First player\Red_tank.png
 C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Others\Ammo.png
 C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Others\Background.jpg
 C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Others\Background2.jpg
@@ -21,9 +18,6 @@ C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Others\Reload.
 C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Others\Shield.png
 C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Others\Track_pos1.png
 C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Others\Track_pos2.png
-C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Second player\Green_launcher.png
-C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Second player\Green_rocket.png
-C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Second player\Green_tank.png
 C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Game.exe.config
 C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Game.exe
 C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Game.pdb
@@ -35,3 +29,9 @@ C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\OpenTK.xml
 C:\Users\Phoenix\Desktop\game\123\Project\Game\obj\Debug\Game.csproj.CopyComplete
 C:\Users\Phoenix\Desktop\game\123\Project\Game\obj\Debug\Game.exe
 C:\Users\Phoenix\Desktop\game\123\Project\Game\obj\Debug\Game.pdb
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\First player\First_launcher.png
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\First player\First_rocket.png
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\First player\First_artillery.png
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Second player\Second_launcher.png
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Second player\Second_rocket.png
+C:\Users\Phoenix\Desktop\game\123\Project\Game\bin\Debug\Textures\Second player\Second_artillery.png

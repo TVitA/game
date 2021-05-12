@@ -106,13 +106,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Textures\First player\Red_launcher.png">
+    <None Include="Textures\First player\First_launcher.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Textures\First player\Red_rocket.png">
+    <None Include="Textures\First player\First_rocket.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Textures\First player\Red_tank.png">
+    <None Include="Textures\First player\First_artillery.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Textures\Others\Ammo.png">
@@ -160,13 +160,13 @@
     <None Include="Textures\Others\Track_pos2.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Textures\Second player\Green_launcher.png">
+    <None Include="Textures\Second player\Second_launcher.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Textures\Second player\Green_rocket.png">
+    <None Include="Textures\Second player\Second_rocket.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Textures\Second player\Green_tank.png">
+    <None Include="Textures\Second player\Second_artillery.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

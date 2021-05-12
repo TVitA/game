@@ -21,7 +21,7 @@ namespace Game.GameObjects
         /// First artillery constructor.
         /// </summary>
         public SecondArtillery()
-            : base(@"Textures\Second player\Green_tank.png", @"Textures\Second player\Green_launcher.png", typeof(SecondRocket))
+            : base(@"Textures\Second player\Second_artillery.png", @"Textures\Second player\Second_launcher.png", typeof(SecondRocket))
         {
             SpriteRenderer.Sprites.SetFlipToAll(true, false);
             Animator.AnimationFrames.SetFlipToAll(true, false);

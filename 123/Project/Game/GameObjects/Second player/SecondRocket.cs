@@ -3,7 +3,7 @@
     public class SecondRocket : Rocket
     {
         public SecondRocket()
-            : base(@"Textures\Second player\Green_rocket.png")
+            : base(@"Textures\Second player\Second_rocket.png")
         {
             Sprite.FlipX = true;
 

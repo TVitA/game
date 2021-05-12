@@ -174,7 +174,7 @@ namespace Game.GameObjects
             explosionAnimator.Enabled = false;
             explosionAnimator.AnimationFrames.SetScaleToAll(1.3f);
 
-            rigidbody.Mass = 1.0f;
+            rigidbody.Mass = 2.0f;
             rigidbody.Resistance = new Vector2(0.3f, 0.3f);
         }
 
