@@ -4,9 +4,6 @@ C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\ru\Microsof
 C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\First player\Red_launcher.png
-C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\First player\Red_rocket.png
-C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\First player\Red_tank.png
 C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Others\Ammo.png
 C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Others\Background.jpg
 C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Others\Background2.jpg
@@ -22,9 +19,6 @@ C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Ot
 C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Others\Shield.png
 C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Others\Track_pos1.png
 C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Others\Track_pos2.png
-C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Second player\Green_launcher.png
-C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Second player\Green_rocket.png
-C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Second player\Green_tank.png
 C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Game.Tests.dll
 C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Game.Tests.pdb
 C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Game.exe
@@ -44,3 +38,9 @@ C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\obj\Debug\Game.Tests.
 C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\obj\Debug\Game.Tests.csproj.CopyComplete
 C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\obj\Debug\Game.Tests.dll
 C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\obj\Debug\Game.Tests.pdb
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\First player\First_launcher.png
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\First player\First_rocket.png
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\First player\First_artillery.png
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Second player\Second_launcher.png
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Second player\Second_rocket.png
+C:\Users\Phoenix\Desktop\game\123\Project\Tests\Game.Tests\bin\Debug\Textures\Second player\Second_artillery.png

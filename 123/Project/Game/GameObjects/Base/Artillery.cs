@@ -252,7 +252,7 @@ namespace Game.GameObjects
         /// <param name="deltaTime">Time between frames.</param>
         public override void FixedUpdate(Double deltaTime)
         {
-            if (rockets.Count < 3)
+            if (rockets.Count < 1)
             {
                 timeElapsed += (Single)deltaTime;
 
@@ -327,11 +327,11 @@ namespace Game.GameObjects
         /// </summary>
         private void UpdateRocketsPosition()
         {
-            var i = 3 - rockets.Count;
+            //var i = 3 - rockets.Count;
 
             foreach (Rocket rocket in rockets)
             {
-                rocket.Position = launcher.Offset + RocketsPositions[i++];
+                rocket.Position = launcher.Offset + RocketsPositions[0];
 
                 TransformationHelper.RotateAroundPoint(rocket,
                     (launcher.RotationPoint + launcher.Offset) * rocket.SpriteRenderer.Sprites[0].Scale,

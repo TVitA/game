@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameEngine.Basic.GameComponent" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACACgIAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic\GameComponent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameEngine.Basic.GameObject" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <AssociationLine Name="Components" Type="GameEngine.Basic.GameComponent" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="0.937" />
+        <Point X="7" Y="0.937" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEAgAIAIAgAASAJAAAAABAAAAAAAIAAAEAAAA=</HashCode>
+      <FileName>Basic\GameObject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Components" />
+      <Property Name="FixedComponents" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="GameEngine.Basic.RotationEventArgs" Collapsed="true">
+    <Position X="14.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAQAAACAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic\RotationEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.Exceptions.DublicateComponentException" Collapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\DublicateComponentException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.Graphics.Animator" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <AssociationLine Name="AnimationFrames" Type="GameEngine.Graphics.Sprite">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.362" Y="0.239" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ARAhCAAAACAAAIAAAAAACAgAAAAIAAAAAAAAAAAAIAE=</HashCode>
+      <FileName>Graphics\Animator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="AnimationFrames" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="GameEngine.Graphics.Sprite" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="3" Width="1.5" />
+    <AssociationLine Name="Texture" Type="GameEngine.Graphics.Texture2D">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.787" Y="0.297" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>QAGAAAIBBCACAJQgUAKAAEASAAAAAgCAAAJAgEAAwAA=</HashCode>
+      <FileName>Graphics\Sprite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Texture" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameEngine.Graphics.SpriteRenderer" Collapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAACAAAIAAEEAAAABAAAAAQAAAAIAAAACAAAA=</HashCode>
+      <FileName>Graphics\SpriteRenderer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Sprites" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameEngine.Graphics.Texture2D" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAADGAABAQAUAQAAEQAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Graphics\Texture2D.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameEngine.Input.InputManager" Collapsed="true">
+    <Position X="13" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAIAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Input\InputManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.Physics.BaseColliderClasses.AxisAlignedBoundingBox" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAABAQgAAAEAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Physics\BaseColliderClasses\AxisAlignedBoundingBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.Physics.BaseColliderClasses.Collider" Collapsed="true">
+    <Position X="4.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAMACAAACAAAgAAEAAABEAIEAABCACABAAAgGAACIA=</HashCode>
+      <FileName>Physics\BaseColliderClasses\Collider.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AABB" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameEngine.Physics.BaseColliderClasses.PolygonCollider" Collapsed="true">
+    <Position X="4.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACCAAAAAggAAAAAAAAQAEAIAAgAABAAAAAAAAAA=</HashCode>
+      <FileName>Physics\BaseColliderClasses\PolygonCollider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.Physics.BoxCollider" Collapsed="true">
+    <Position X="4.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Physics\BoxCollider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.Physics.Rigidbody" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <AssociationLine Name="Colliders" Type="GameEngine.Physics.BaseColliderClasses.Collider">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.845" Y="0.225" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AIgAAAgAACAKAIAAgAAAEIAAAAAAAAAQQAQAEACMAAA=</HashCode>
+      <FileName>Physics\Rigidbody.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Colliders" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameEngine.Physics.TriggerEnterEventArgs" Collapsed="true">
+    <Position X="13" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAA=</HashCode>
+      <FileName>Physics\TriggerEnterEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.Utilities.ColliderCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAABAQGAAABAQAAAAAAAAEAAAAEABQIAA=</HashCode>
+      <FileName>Utilities\ColliderCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameEngine.Utilities.ResourceLoader" Collapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities\ResourceLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.Utilities.SpriteCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAIACSAAABAwGAAABAQAQBggABAEAGAAgAD0IAA=</HashCode>
+      <FileName>Utilities\SpriteCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameEngine.Utilities.SpriteEventArgs" Collapsed="true">
+    <Position X="14.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities\SpriteEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.Utilities.TransformationHelper" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities\TransformationHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.Engine" Collapsed="true">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABQAAEIQAABABAVAAAAAACCAAIIChALAAAAAAQAEA=</HashCode>
+      <FileName>Engine.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="GameObjects" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Struct Name="GameEngine.Utilities.RenderOrder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAQAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities\RenderOrder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Interface Name="GameEngine.Basic.IFixedUpdatableComponent" Collapsed="true">
+    <Position X="11.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic\IFixedUpdatableComponent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GameEngine.Basic.IUniqueComponent" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic\IUniqueComponent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

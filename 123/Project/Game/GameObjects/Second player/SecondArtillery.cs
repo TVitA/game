@@ -28,9 +28,9 @@ namespace Game.GameObjects
 
             rocketsPositions = new[]
             {
-                new Vector2(Launcher.Offset.X - 22.0f, Launcher.Offset.Y - 1.0f),
+                //new Vector2(Launcher.Offset.X - 22.0f, Launcher.Offset.Y - 1.0f),
                 new Vector2(Launcher.Offset.X - 22.0f, Launcher.Offset.Y - 13.0f),
-                new Vector2(Launcher.Offset.X - 22.0f, Launcher.Offset.Y - 25.0f)
+                //new Vector2(Launcher.Offset.X - 22.0f, Launcher.Offset.Y - 25.0f)
             };
 
             Animator.AnimationFrames.SetOffsetToAll(-10.0f, -59.0f);

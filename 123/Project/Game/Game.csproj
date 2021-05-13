@@ -61,7 +61,7 @@
     <Compile Include="GameObjects\Base\Artillery.cs" />
     <Compile Include="GameObjects\Base\ArtilleryProperties.cs" />
     <Compile Include="GameObjects\Surroundings\Background.cs" />
-    <Compile Include="GameObjects\Base\ExiteEvent.cs" />
+    <Compile Include="GameObjects\Base\ExitEvent.cs" />
     <Compile Include="GameObjects\First player\FirstArtillery.cs" />
     <Compile Include="GameObjects\First player\FirstRocket.cs" />
     <Compile Include="GameObjects\Surroundings\Mauntain.cs" />
@@ -90,6 +90,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="ClassDiagram.cd" />
     <None Include="OpenTK.dll.config" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

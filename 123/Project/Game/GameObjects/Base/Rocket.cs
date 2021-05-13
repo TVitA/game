@@ -79,9 +79,9 @@ namespace Game.GameObjects
 
             sprite = SpriteRenderer.Sprites.AddByName(spriteFilename);
             sprite.ZOrder = 10.13f;
-            sprite.Scale = new Vector2(0.6f, 0.6f);
+            sprite.Scale = new Vector2(0.6f, 1.2f);
 
-            rigidbody.Colliders.Add(new BoxCollider(new Vector2(-43, -7), new Vector2(43, 7)));
+            rigidbody.Colliders.Add(new BoxCollider(new Vector2(-49, -8), new Vector2(49, 8)));
             rigidbody.Colliders[0].IsTrigger = true;
             rigidbody.OnTriggerEnter += Rigidbody_OnTriggerEnter;
             rigidbody.Enabled = false;
